@@ -1,0 +1,19 @@
+{
+  "preset": "react-native",
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "ts",
+    "tsx"
+  ],
+  "transform": {
+    "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+    "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+  },
+  "testMatch": [
+    "**/__tests__/**/*.js?(x)",
+    "**/?(*.)(spec|test).js?(x)",
+    "**/__tests__/**/*.ts?(x)",
+    "**/?(*.)(spec|test).ts?(x)"
+  ]
+}
