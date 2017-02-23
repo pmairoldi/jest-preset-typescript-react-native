@@ -22,7 +22,7 @@ Add the preset to your [Jest](https://facebook.github.io/jest/docs/configuration
 
 ```js
 {
-  "preset": "typescript-react-native"
+  "preset": "jest-preset-typescript-react-native"
 }
 ```
 
