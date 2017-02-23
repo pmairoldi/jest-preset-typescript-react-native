@@ -1,6 +1,6 @@
 {
   "name": "jest-preset-typescript-react-native",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "jest preset for using typescript with react-native",
   "license": "MIT",
   "author": "Pierre-Marc Airoldi <pierremarcairoldi@gmail.com>",
