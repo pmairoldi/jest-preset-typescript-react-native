@@ -9,13 +9,14 @@ The configuration is simply just the `react-native` preset with a couple other t
 
 ## Install
 
-```
-yarn add jest-preset-typescript-react-native -D
+The library can be installed with [yarn](https://yarnpkg.com) with the following:
+```bash
+yarn add jest-preset-typescript-react-native --dev
 ```
 
-or
+or with [npm](https://www.npmjs.com) with the following:
 
-```
+```bash
 npm install jest-preset-typescript-react-native --save-dev
 ```
 
@@ -24,7 +25,7 @@ npm install jest-preset-typescript-react-native --save-dev
 
 Add the preset to your [Jest](https://facebook.github.io/jest/docs/configuration.html) configuration :
 
-```js
+```json
 {
   "preset": "jest-preset-typescript-react-native"
 }
