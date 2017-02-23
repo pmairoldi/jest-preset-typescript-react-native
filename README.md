@@ -6,13 +6,13 @@
 ## Install
 
 ```
-$ yarn add jest-preset-typescript-react-native
+yarn add jest-preset-typescript-react-native -D
 ```
 
 or
 
 ```
-$ npm install --save jest-preset-typescript-react-native
+npm install jest-preset-typescript-react-native --save-dev
 ```
 
 
@@ -29,4 +29,4 @@ Add the preset to your [Jest](https://facebook.github.io/jest/docs/configuration
 [npm-img]: https://img.shields.io/npm/v/jest-preset-typescript-react-native.svg?style=flat-square
 [npm-link]: https://www.npmjs.com/package/jest-preset-typescript-react-native
 [license-img]: https://img.shields.io/npm/l/jest-preset-typescript-react-native.svg?style=flat-square
-[licence-link]: LICENSE.md
+[license-link]: LICENSE.md
