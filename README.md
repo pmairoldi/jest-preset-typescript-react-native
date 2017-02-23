@@ -31,6 +31,24 @@ Add the preset to your [Jest](https://facebook.github.io/jest/docs/configuration
 }
 ```
 
+## Update react-native default settings
+
+By default when creating a react-native project jest will be already configured for you in the `package.json` as follows:
+
+```json
+"jest": {
+  "preset": "react-native"
+}
+```
+
+To update the default react-native settings just change the preset to use this library instead. Like so:
+
+```json
+"jest": {
+  "preset": "jest-preset-typescript-react-native"
+}
+```
+
 [npm-img]: https://img.shields.io/npm/v/jest-preset-typescript-react-native.svg?style=flat-square
 [npm-link]: https://www.npmjs.com/package/jest-preset-typescript-react-native
 [license-img]: https://img.shields.io/npm/l/jest-preset-typescript-react-native.svg?style=flat-square
