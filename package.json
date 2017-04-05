@@ -16,9 +16,11 @@
     "typescript",
     "react-native"
   ],
+  "peerDependencies": {
+    "react-native": ">= 0.41.0 < 0.43.0"
+  },
   "dependencies": {
     "babel-jest": "^19.0.0",
-    "jest": "^19.0.0",
-    "react-native": "^0.41.2"
+    "jest": "^19.0.0"
   }
 }
