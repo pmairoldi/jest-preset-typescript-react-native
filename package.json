@@ -17,7 +17,7 @@
     "react-native"
   ],
   "peerDependencies": {
-    "react-native": ">= 0.41.0 < 0.44.0"
+    "react-native": ">= 0.41.0 < 0.47.0"
   },
   "dependencies": {
     "babel-jest": "^19.0.0",
