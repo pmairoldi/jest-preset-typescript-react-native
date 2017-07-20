@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "jsx": "react-native",
+        "outDir": "build",
+        "sourceRoot": "src",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "declaration": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "__tests__",
+        "node_modules"
+    ],
+    "compileOnSave": true
+}

@@ -1,0 +1,36 @@
+{
+	"name": "TestApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"tsc": "tsc",
+		"jest": "jest",
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"android": "node node_modules/react-native/local-cli/cli.js run-android",
+		"ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+		"prebuild": "rm -rf build",
+		"build": "npm run tsc",
+		"pretest": "npm run build",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.46.4"
+	},
+	"devDependencies": {
+		"@types/jest": "^20.0.4",
+		"@types/react": "^15.0.38",
+		"@types/react-native": "^0.46.4",
+		"@types/react-test-renderer": "^15.5.2",
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.1.0",
+		"jest": "20.0.4",
+		"jest-cli": "20.0.4",
+		"jest-preset-typescript-react-native": "file:..",
+		"react-test-renderer": "16.0.0-alpha.12",
+		"typescript": "^2.4.2"
+	},
+	"jest": {
+		"preset": "jest-preset-typescript-react-native"
+	}
+}
