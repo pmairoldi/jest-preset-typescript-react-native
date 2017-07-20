@@ -1,4 +1,6 @@
-# Next
+# Next 
+
+# 1.2.0
 
 - Add font files to stubs
 - Update to support react native versions between 0.41.0 and 0.46.0
