@@ -2,6 +2,7 @@
 
 [![NPM Version][npm-img]][npm-link]
 [![License][license-img]][license-link]
+[![Build Status][build-img]][build-link]
 
 To simplify the configuration of jest with a react-native project that is using typescript. 
 
@@ -53,3 +54,5 @@ To update the default react-native settings just change the preset to use this l
 [npm-link]: https://www.npmjs.com/package/jest-preset-typescript-react-native
 [license-img]: https://img.shields.io/npm/l/jest-preset-typescript-react-native.svg?style=flat-square
 [license-link]: LICENSE.md
+[build-img]: https://travis-ci.org/petester42/jest-preset-typescript-react-native.svg?branch=master
+[build-link]: https://travis-ci.org/petester42/jest-preset-typescript-react-native
