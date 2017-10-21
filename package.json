@@ -17,7 +17,8 @@
     "react-native"
   ],
   "scripts": {
-    "test": "cd TestApp && npm install && npm test"
+    "test": "cd TestApp && npm install && npm test",
+    "coverage": "cd TestApp && npm install && npm run coverage"
   },
   "peerDependencies": {
     "react-native": ">= 0.41.0 < 0.47.0"

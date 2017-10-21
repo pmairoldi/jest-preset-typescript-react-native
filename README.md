@@ -32,6 +32,8 @@ Add the preset to your [Jest](https://facebook.github.io/jest/docs/configuration
 }
 ```
 
+For coverage data, the only way i've figured out how to get the right data for the ts/tsx file is to make the sourceMaps inline. To do so add `"inlineSourceMap": true` to your `tsconfig.json` file.
+
 ## Update react-native default settings
 
 By default when creating a react-native project jest will be already configured for you in the `package.json` as follows:

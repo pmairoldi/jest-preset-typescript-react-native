@@ -11,7 +11,8 @@
 		"prebuild": "rm -rf build",
 		"build": "npm run tsc",
 		"pretest": "npm run build",
-		"test": "jest"
+		"test": "jest --no-cache",
+		"coverage": "npm run test -- --coverage"
 	},
 	"dependencies": {
 		"react": "16.0.0-alpha.12",

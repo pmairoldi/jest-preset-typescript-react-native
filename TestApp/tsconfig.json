@@ -10,8 +10,8 @@
         "strictNullChecks": true,
         "experimentalDecorators": true,
         "preserveConstEnums": true,
-        "sourceMap": true,
-        "declaration": true
+        "inlineSourceMap": true,
+        "declaration": true        
     },
     "include": [
         "src/**/*.ts",

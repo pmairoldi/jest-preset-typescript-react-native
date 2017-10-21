@@ -6,7 +6,10 @@ import {
   View
 } from 'react-native';
 
-export default class TestApp extends Component {
+export default class TestApp extends Component<{text?: string}, {}> {
+  testFunction() {
+    let x = "test";
+  }
   render() {
     return (
       <View style={styles.container}>
